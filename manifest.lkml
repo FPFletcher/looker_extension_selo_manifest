@@ -45,7 +45,7 @@ application: selo_agentic_app_PRODUCTION {
       "https://selo-extension-backend-734857282249.europe-west1.run.app",
 
       # Instance URL to be personalized
-      "https://<YOUR_INSTANCE_DOMAIN>.com/*"
+      "https://<YOUR_INSTANCE_DOMAIN>.com"
     ]
   }
 }
