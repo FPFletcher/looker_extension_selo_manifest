@@ -32,17 +32,13 @@ application: selo_agentic_app_PRODUCTION {
 
     # CRITICAL: Add your backend URL here so the extension can talk to it
     external_api_urls: [
-      # Backend API URL (Hash style)
+      # Backend API URL
       # Used by the frontend to send chat requests and fetch data.
-      "https://selo-extension-backend-pr4xpixpuq-ew.a.run.app",
+      "https://selo-extension-backend-734857282249.europe-west1.run.app",
 
       # Frontend Web URL
       # Where the extension assets (bundle.js) and static files (logos) are hosted.
       "https://selo-extension-web-734857282249.europe-west1.run.app",
-
-      # Backend API URL (New Project Number style)
-      # Alternative URL for the same backend service. The app attempted to use this to reach /api/chat.
-      "https://selo-extension-backend-734857282249.europe-west1.run.app",
 
       # Instance URL to be personalized
       "https://<YOUR_INSTANCE_DOMAIN>.com"
