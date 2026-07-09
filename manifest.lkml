@@ -31,7 +31,8 @@ application: selo_agentic_app_PRODUCTION {
     ]
 
     external_api_urls: [
-# Backend API URL
+
+    # Backend API URL
     # Used by the frontend to send chat requests and fetch data.
     "https://<YOUR_BACK_END_cloud_run_domain>.run.app",
 
