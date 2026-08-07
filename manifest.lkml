@@ -11,6 +11,7 @@ application: selo_agentic_app_PRODUCTION {
     navigation: yes
     new_window: yes
     use_form_submit: yes
+    use_clipboard: yes
     use_embeds: yes
     new_window_external_urls: [
       "https://<YOUR_BACK_END_cloud_run_domain>.run.app/*",
@@ -27,6 +28,8 @@ application: selo_agentic_app_PRODUCTION {
       "all_connections",
       "all_lookml_models",
       "create_query",
+      "session",
+      "update_session",
       "run_query"
     ]
 
@@ -41,7 +44,11 @@ application: selo_agentic_app_PRODUCTION {
     "https://<YOUR_FRONT_END_cloud_run_domain>.run.app",
 
     # Instance URL to be personalized, the domain can be .com or .app based on wether you use Looker Original or Core
-    "https://<YOUR_INSTANCE_DOMAIN>"
+    "https://<YOUR_INSTANCE_DOMAIN>",
+
+    # Required for Google Curated Support Agent (MVP WIP)
+    "https://www.gstatic.com",
+    "https://dialogflow.cloud.google.com"
   ]
 }
 }
